@@ -1,0 +1,167 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+
+.backgroundimage {
+  background-image: url("https://thumbs.dreamstime.com/b/rock-concert-29673156.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height:fit-content;
+  width:fit-content;
+}
+
+
+
+p {
+    font-size: 19px;
+}
+
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position:fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+  
+.container {
+    background-color: #ffffff13;
+}
+
+
+.header {  
+    text-align: center;
+    font-size:larger;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+  }
+  
+
+.side-image {display: block;
+             width: 550px;
+             height: 550px;
+             margin-left: auto;
+             margin-right: auto;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+.two-column {
+  float: left;
+  width: 46%;
+  padding: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.column-text-left {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  text-align: justify;
+}  
+
+
+.row-image {
+  padding: 20px;
+  width: 400px;
+  height: 350px;
+}
+
+.column-image-large {
+  width: 400px;
+  height: 500px;
+  border-radius: 25px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+}
+
+.column-footer {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: left;
+  
+}
+
+.icon {font-size: 65px;
+       text-align: justify
+       
+}
+.footer {text-align: left;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color:#ece6e6;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #000000;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+  
+.navbar a:hover {
+  background-color: #484848;
+}
+  
+
+
+@media screen and (max-width: 700px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.largeColumn {
+  float: left;
+  width: 45%;
+  padding: 20px;
+  text-align: center;
+}
+.largeColumn button{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+  
