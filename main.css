@@ -7,19 +7,26 @@ body {
   box-sizing: border-box;
 }
 
-
-.backgroundimage {
-  background-image: url("https://thumbs.dreamstime.com/b/rock-concert-29673156.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  height:fit-content;
-  width:fit-content;
+.rockbackground {
+  background-color: #000;
 }
 
+.popbackground {
+  background-color: white;
+}
+
+.calmbackground {
+  background-color: white;
+}
+
+.classicalbackground {
+  background-color: #a4825e;
+}
 
 
 p {
     font-size: 19px;
+    color: #f1f1f1;
 }
 
 
@@ -36,21 +43,21 @@ p {
   position:fixed;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
+  color: #ffffff;
   width: 100%;
   padding: 20px;
 }
   
-.container {
-    background-color: #ffffff13;
-}
 
+h3 {
+  color: #ffffff;
+}
 
 .header {  
     text-align: center;
     font-size:larger;
     padding: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   
 
@@ -120,6 +127,12 @@ p {
     background-color:#ece6e6;
 }
 
+.navbarrock {
+  width: 100%;
+  background-color: #000000;
+  overflow: auto;
+}
+
 .navbar {
   width: 100%;
   background-color: #000000;
@@ -136,7 +149,7 @@ p {
 }
   
 .navbar a:hover {
-  background-color: #484848;
+  background-color: #808080;
 }
   
 
